@@ -107,10 +107,11 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.23985404, g: 0.46383476, b: 0.6603774, a: 0}
     - _Color1: {r: 0.30015132, g: 0.6507838, b: 0.8962264, a: 1}
+    - _Depthfadecolor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _TexUV: {r: 60, g: 60, b: 0, a: 0}
     - _Vector0: {r: 10, g: 10, b: 0, a: 0}
-    - _Watercolor: {r: 0.255518, g: 0.38775122, b: 0.6226415, a: 0}
+    - _Watercolor: {r: 0.255518, g: 0.3877512, b: 0.6226415, a: 0}
     - _WaveColor: {r: 0.6367924, g: 0.9697522, b: 1, a: 0}
     - _Wavecolor: {r: 0.3025098, g: 0.52881366, b: 0.6226415, a: 0}
   m_BuildTextureStacks: []

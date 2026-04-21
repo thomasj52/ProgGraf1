@@ -56,6 +56,7 @@ Material:
     - _MaxHeight: 0.7
     - __dirty: 0
     m_Colors:
+    - _Tilling: {r: 15, g: 15, b: 0, a: 0}
     - _Vector0: {r: 0, g: 1, b: 0, a: 0}
     - _Vector1: {r: 2, g: 2, b: 0, a: 0}
     - _Vector2: {r: 2, g: 2, b: 0, a: 0}

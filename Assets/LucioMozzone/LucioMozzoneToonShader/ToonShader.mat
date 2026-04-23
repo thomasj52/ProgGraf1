@@ -43,5 +43,6 @@ Material:
     - __dirty: 0
     m_Colors:
     - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Ink: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 0}
+    - _Ink: {r: 0.15363045, g: 0.9150943, b: 0.07338022, a: 0}
+    - _Tilling: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SueloMaderaMaterial
+  m_Name: SueloMaterial
   m_Shader: {fileID: 4800000, guid: 62cfc8b48879dd548a975e3bb02ea031, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,11 +21,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: a9529dcc776e11140ab8c2a52dd0bcca, type: 3}
+        m_Texture: {fileID: 2800000, guid: 691a8d46920a79542ad4e36c394b547a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AmbientOcclusion:
-        m_Texture: {fileID: 2800000, guid: 66e8edff63076ce4280f2da33eacc727, type: 3}
+        m_Texture: {fileID: 2800000, guid: b757e85527dfa9340b0a6ad2abe40137, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 59c1c8f86b1fa744cac90b5e4bf3b4a8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 923ecfa2c4e1ce0498cbe4c1fb3c8e41, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -68,24 +68,32 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: a9529dcc776e11140ab8c2a52dd0bcca, type: 3}
+        m_Texture: {fileID: 2800000, guid: 691a8d46920a79542ad4e36c394b547a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
-        m_Texture: {fileID: 2800000, guid: a9529dcc776e11140ab8c2a52dd0bcca, type: 3}
+        m_Texture: {fileID: 2800000, guid: 691a8d46920a79542ad4e36c394b547a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample2:
-        m_Texture: {fileID: 2800000, guid: 59c1c8f86b1fa744cac90b5e4bf3b4a8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 923ecfa2c4e1ce0498cbe4c1fb3c8e41, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample3:
-        m_Texture: {fileID: 2800000, guid: 66e8edff63076ce4280f2da33eacc727, type: 3}
+        m_Texture: {fileID: 2800000, guid: ba7d591f74c9058459631ead92840abe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample4:
-        m_Texture: {fileID: 2800000, guid: d273b3072d0c16844b2adf846f879df0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 231dd91f52e60414aaaaa3dca6e0eb00, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample5:
+        m_Texture: {fileID: 2800000, guid: b757e85527dfa9340b0a6ad2abe40137, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -98,9 +106,10 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Float0: 1
-    - _Float1: 1
+    - _Float0: 5
+    - _Float1: 6
     - _Float2: 1
+    - _Float3: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -117,7 +126,8 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Vector0: {r: 10, g: 10, b: 1, a: 0}
-    - _Vector1: {r: 10, g: 10, b: 1, a: 0}
-    - _Vector2: {r: 10, g: 10, b: 1, a: 0}
+    - _VTInfoBlock: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 25, g: 25, b: 1, a: 0}
+    - _Vector1: {r: 1, g: 1.2, b: 1, a: 0}
+    - _Vector2: {r: 14, g: 14, b: 0, a: 0}
   m_BuildTextureStacks: []

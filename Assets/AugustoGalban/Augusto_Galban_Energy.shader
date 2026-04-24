@@ -146,7 +146,7 @@ Shader "Augusto_Galban_Energy"
 }
 /*ASEBEGIN
 Version=18900
-0;843;1954;508;2207.227;-652.4064;1;True;False
+0;843;1954;508;1271.01;127.7123;1;True;False
 Node;AmplifyShaderEditor.CommentaryNode;9;-2965.204,153.801;Inherit;False;1012;391;UV Energy;5;5;6;7;8;4;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.RangedFloatNode;6;-2915.204,301.801;Inherit;False;Property;_EnergyTiling;EnergyTiling;1;0;Create;True;0;0;0;False;0;False;4;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.TextureCoordinatesNode;5;-2703.204,203.801;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -154,7 +154,7 @@ Node;AmplifyShaderEditor.Vector2Node;8;-2602.203,380.8011;Inherit;False;Constant
 Node;AmplifyShaderEditor.PannerNode;7;-2394.203,226.801;Inherit;False;3;0;FLOAT2;0,0;False;2;FLOAT2;0,0;False;1;FLOAT;1;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.CommentaryNode;14;-2931.032,-280.9484;Inherit;False;1483.09;385.145;EnergyMask;7;1;2;3;10;11;12;13;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.RegisterLocalVarNode;4;-2177.203,218.801;Inherit;False;UVEnergy;-1;True;1;0;FLOAT2;0,0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.TexturePropertyNode;1;-2881.032,-230.9484;Inherit;True;Property;_EnergyTex;EnergyTex;0;0;Create;True;0;0;0;False;0;False;f7e96904e8667e1439548f0f86389447;None;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;1;-2881.032,-230.9484;Inherit;True;Property;_EnergyTex;EnergyTex;0;0;Create;True;0;0;0;False;0;False;f7e96904e8667e1439548f0f86389447;f7e96904e8667e1439548f0f86389447;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.GetLocalVarNode;3;-2824.204,-16.19899;Inherit;False;4;UVEnergy;1;0;OBJECT;;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.RangedFloatNode;16;-2526.927,1075.563;Inherit;False;Property;_FresnelPower;FresnelPower;3;0;Create;True;0;0;0;False;0;False;4;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SamplerNode;2;-2530.203,-147.199;Inherit;True;Property;_TextureSample0;Texture Sample 0;1;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -205,4 +205,4 @@ WireConnection;0;2;31;0
 WireConnection;0;3;29;0
 WireConnection;0;4;30;0
 ASEEND*/
-//CHKSM=5EFF5B47029CDC3D1DE7EECD3A0D6B85C2AE877C
+//CHKSM=E1324E360BBEAADEE3B01FFCB96582C581C1DD8F

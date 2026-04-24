@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EnergyTex:
-        m_Texture: {fileID: 2800000, guid: f7e96904e8667e1439548f0f86389447, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3896c91c130d2c04e9ab99cfee57d8d1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -72,12 +72,12 @@ Material:
     - _DstBlend: 0
     - _EnergyIntensity: 1.8
     - _EnergyTiling: 4
-    - _FresnelIntensity: 0.3
-    - _FresnelPower: 4
+    - _FresnelIntensity: 7.5
+    - _FresnelPower: 1.8
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.4
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02

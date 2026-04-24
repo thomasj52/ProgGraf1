@@ -82,7 +82,7 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DistortionWeight: 5
+    - _DistortionWeight: 4
     - _DstBlend: 0
     - _Exp: 1
     - _Float0: 1

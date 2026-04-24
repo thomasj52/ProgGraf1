@@ -56,6 +56,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 1028a9ab963ee014eb604a527e73c29b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: e28dc97a9541e3642a48c0e3886688c5, type: 3}
         m_Scale: {x: 20, y: 20}
@@ -63,6 +67,10 @@ Material:
     - _TextureSample1:
         m_Texture: {fileID: 2800000, guid: ceb1bacd3e5dc9b4cb4b85eb1a74cfb6, type: 3}
         m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _heightmap:
+        m_Texture: {fileID: 2800000, guid: e28dc97a9541e3642a48c0e3886688c5, type: 3}
+        m_Scale: {x: 30, y: 30}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -78,7 +86,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Height: 4
-    - _MaxHeight: 2
+    - _MaxHeight: 2.5
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
